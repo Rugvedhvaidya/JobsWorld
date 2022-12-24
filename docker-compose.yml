@@ -1,0 +1,40 @@
+version: '3'
+services:
+
+  api:
+    build:
+      context: ./Backend
+      dockerfile: Dockerfile
+    image: jobsworld-server
+    container_name: jobsworld-api-server
+    command: npm run start
+    ports:
+      - "5000:5000"
+    volumes:
+      - /usr/app/node_modules
+      - ./Backend:/usr/app
+    networks:
+      - app-network
+
+
+  client:
+    build:
+      context: ./FrontEnd
+      dockerfile: Dockerfile
+    image: jobsworld-client  
+    container_name: jobsworld-react-server
+    command: npm run start
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api  
+    volumes:
+      - /usr/app/node_modules
+      - ./FrontEnd:/usr/app
+    networks:
+      - app-network
+  
+networks:
+  app-network:
+      driver: bridge
+  

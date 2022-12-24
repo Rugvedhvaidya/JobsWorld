@@ -1,0 +1,651 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: Simple Student API
+  description: A simple API to do CRUD on 'student' resource
+
+servers:
+  - url: http://localhost:5000/
+
+tags:
+  - name: users
+    description: API to manage the students.
+  - name: jobs
+    description: API to manage the jobs,
+  - name: resume
+    description: API to manage the Resumes
+  - name: shortlist
+    description: API to manage the shortlist  
+
+
+paths:
+  /signup:
+    post:
+      summary: Creates a new user
+      tags:
+        - "users"
+      description: The user to create.
+      requestBody: 
+        required: true
+        content:
+          application/json:
+            schema: 
+              $ref: '#/components/schemas/User'
+      responses:
+        200:
+          description: user sighned up successfully
+ 
+
+  /login:
+    post:
+      summary: logs-In the user
+      tags:
+        - "users"
+      description: ""
+      requestBody: 
+        required: true
+        content:
+          application/json:
+            schema: 
+              $ref: '#/components/schemas/UserLogin'
+      responses:
+        200:
+          description: "User logged in successfully"
+
+
+  /user-postings: 
+    get:
+      summary: get all the postings posted by the user
+      tags:
+        - "users"
+      description: The list of all the posted jobs by the user.
+      parameters:
+        - in: header
+          name: Authorization
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: got all the postings posted by the user
+  /jobsapplied: 
+    get:
+      summary: Get all the applied jobs by the user
+      tags:
+        - "users"
+      description: The list of all the applied jobs by the user.
+      parameters:
+        - in: header
+          name: Authorization
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: got all the applied jobs by a user
+    
+    post:      
+      summary: update applied jobs of the user 
+      tags:
+        - "users"
+      description: The list of all the applied jobs by the user.
+      parameters:
+        - in: header
+          name: Authorization
+          required: true
+          schema:
+            type: string
+      requestBody: 
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/updateAppliedjobs'       
+
+              
+
+      responses:
+        "200":
+          description: Updated successfully
+
+            
+  /jobs: 
+    get:
+      summary: List of all jobs
+      tags:
+        - "jobs"
+      responses:
+        "200":
+          description: The list of all jobs.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Jobs'       
+    post:
+      summary: Creates a new job
+      tags:
+        - "jobs"
+      description: The logged in user creates new job.
+      parameters:
+        - in: header
+          name: Authorization
+          required: true
+          schema:
+            type: string
+      requestBody: 
+        required: true
+        content:
+          application/json:
+            schema: 
+              $ref: '#/components/schemas/Jobs'
+      responses:
+        200:
+          description: All the jobs
+
+
+  /jobs/{id}:
+    get:
+
+      summary: "Get job by user name"
+      tags:
+        - "jobs"
+      description: ""
+      parameters:
+        - in: path
+          name: id
+          required: true
+          description: job id
+          schema:
+            type: string   
+      responses:
+        "200":
+          description: "successful operation"
+        "400":
+          description: "Invalid username supplied"
+        "404":
+          description: "User not found"  
+
+    delete:
+      summary: "This api is used to delete job records from the database"
+      tags:
+        - "jobs"
+      description: "Delete a job from the dataset"
+      parameters:
+        - in: path
+          name: id
+          required: true
+          description: job id
+          schema:
+            type: string   
+      responses:
+        "200":
+          description: "successful operation"
+        "400":
+          description: "Invalid username supplied"
+        "404":
+          description: "User not found"          
+  
+  /jobs/edit/{id}:
+    put:
+      summary: update the job by id
+      tags:
+        - "jobs"
+      description: updates the job.
+      parameters:
+        - in: header
+          name: Authorization
+          required: true
+          schema:
+            type: string
+        - in: path
+          name: id
+          required: true
+          description: job id
+          schema:
+            type: string
+      requestBody: 
+        required: true
+        content:
+          application/json:
+            schema: 
+              $ref: '#/components/schemas/Jobs'
+      responses:
+        "200":
+          description: "successful operation"
+        "400":
+          description: "Invalid username supplied"
+        "404":
+          description: "User not found"
+
+  /jobs/{id}/applicants:
+    get:
+      summary: "get all applied applicants for a job"
+      tags:
+        - "jobs"
+      description: ""
+      parameters:
+        - in: path
+          name: id
+          required: true
+          description: job id
+          schema:
+            type: string   
+      responses:
+        "200":
+          description: "successful operation"
+        "400":
+          description: "Invalid username supplied"
+        "404":
+          description: "User not found" 
+
+
+
+
+  /resume: 
+    get:
+      summary: gets the user resume for the logged in user
+      tags:
+        - "resume"
+      description: The list of all the posted jobs by the user.
+      parameters:
+        - in: header
+          name: Authorization
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Resume
+    post:
+      summary: Creates a new resume
+      tags:
+        - "resume"
+      description: The user to creates new job.
+      parameters:
+        - in: header
+          name: Authorization
+          required: true
+          schema:
+            type: string
+      requestBody: 
+        required: true
+        content:
+          application/json:
+            schema: 
+              $ref: '#/components/schemas/resume'
+      responses:
+        200:
+          description: Resume created successsfully
+
+
+  /resume/{id}:
+      delete:
+        summary: "This api is used to delete record from the database"
+        tags:
+          - "resume"
+        description: ""
+        parameters:  
+          - in: header
+            name: Authorization
+            required: true
+            schema:
+              type: string
+          - in: path
+            name: id
+            required: true
+            description: job id
+            schema:
+              type: string
+        responses:
+          "200":
+            description: "successful operation"
+          "400":
+            description: "Invalid username supplied"
+          "404":
+            description: "User not found"     
+      get:
+        summary: "This api is used to delete record from the database"
+        tags:
+          - "resume"
+        description: ""
+        parameters:  
+          - in: path
+            name: id
+            required: true
+            description: job id
+            schema:
+              type: string
+        responses:
+          "200":
+            description: "successful operation"
+          "400":
+            description: "Invalid username supplied"
+          "404":
+            description: "User not found"     
+      
+
+  /resume/edit/{id}:
+    put:
+      summary: Creates a new resume
+      tags:
+        - "resume"
+      description: The user to creates new job.
+      parameters:
+        - in: header
+          name: Authorization
+          required: true
+          schema:
+            type: string
+        - in: path
+          name: id
+          required: true
+          description: job id
+          schema:
+            type: string    
+      requestBody: 
+        required: true
+        content:
+          application/json:
+            schema: 
+              $ref: '#/components/schemas/resume'
+      responses:
+        "200":
+          description: "successful operation"
+        "400":
+          description: "Invalid username supplied"
+        "404":
+          description: "User not found"  
+  
+
+  /shortlist: 
+    get:
+      summary: "get all the shortlisted jobs for a user"
+      tags:
+        - "shortlist"
+      description: The list of all the applied jobs by the user.
+      parameters:
+        - in: header
+          name: Authorization
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: get all the applied jobs by a user      
+    post:
+      summary: Creates a new job
+      tags:
+        - "shortlist"
+      description: The user to creates new job.
+      parameters:
+        - in: header
+          name: Authorization
+          required: true
+          schema:
+            type: string
+      requestBody: 
+        required: true
+        content:
+          application/json:
+            schema: 
+              $ref: '#/components/schemas/updateShortListedjobs'
+      responses:
+        200:
+          description: user sighned up successfully
+
+
+components:
+  schemas:
+
+    updateAppliedjobs:
+      type: object
+      required:
+        - jobId
+      properties:
+        jobId: 
+          type: string
+          description: ""
+      example:  
+        jobId: ""  
+
+    updateShortListedjobs:
+      type: object
+      required:
+        - jobId
+      properties:
+        jobId: 
+          type: string
+          description: ""
+      example:  
+        jobId: ""  
+
+    User:
+      type: object
+      required:
+        - user_name
+        - email
+        - password
+      properties:
+        id: 
+          type: string
+          description: id of the user
+        user_name:
+          type: string
+          description: name of the user 
+        email:
+          type: string
+          description: email of the user
+        password:
+          type: string
+          description: password of the user    
+      example:
+        user_name: dattu
+        email: dattu@gmail.com
+        password: Datta@2001    
+
+    UserLogin: 
+      type: object
+      required:
+        - "email"
+        - password
+      properties:
+        email:
+          type: string
+          description: email of the user
+        password:
+          type: string
+          description: password of the user    
+      example:
+        email: dattu@gmail.com
+        password: Datta@2001    
+
+    UserPostedJobsandAppliedJobs:
+      type: object
+      required:
+        - ""
+      properties:
+        user_id: 
+          type: string
+          description: id to find the posted jobs and applied jobs
+      example:
+        token: ""      
+
+    
+
+    Jobs:
+      type: object
+      required:
+        - company_name
+        - role
+        - company_description
+        - company_location
+        - number_of_postings
+        - job_title
+        - job_description
+        - role_category
+        - salary
+        - work_experience
+        - job_type 
+        - education_level
+        - skills
+
+      properties:
+        id: 
+          type: string
+          description: id of the user
+        company_name:
+          type: string
+          description: name of the user 
+        company_description:
+          type: string
+          description: email of the user
+        company_location:
+          type: string
+          description: password of the user 
+        number_of_postings:
+          type: number
+          description: name of the user
+        job_title:
+          type: string
+          description: name of the user
+        job_description:
+          type: string
+          description: name of the user
+        role_category:
+          type: string
+          description: name of the user
+        salary:
+          type: number
+          description: name of the user
+        work_experience:
+          type: number
+          description: name of the user       
+        job_type:
+          type: string
+          description: name of the user
+        education_level:
+          type: string
+          description: name of the user
+        skills:
+          type: array
+          items: 
+            type: string
+      example:
+        company_name: dattu
+        role: dattu@gmail.com
+        owner_id: password
+        company_description: gasdffgdfgagagdsfg
+        company_location: sgasadgdfsgdsgfdsfgdf
+        number_of_postings: 3
+        job_title: gfhjnfxgjhf
+        job_description: fshbrfrghbghdfh
+        role_category: dshfghfdjnvn
+        salary: 20000
+        work_experience: 2
+        job_type: hgsdfghfghdfh
+        education_level: gsdfgdsgd
+        skills: [java, python]
+
+    resume:
+      type: object
+      required:
+        - firstName
+        - lastName
+        - currentCity
+        - postalCode
+        - email
+        - phone
+        - degree
+        - fieldOfStudy
+        - college
+        - year
+        - jobTitle 
+        - company
+        - jobCity
+        - jobYear
+        - jobDesc
+        - skills
+
+      properties:
+        id: 
+          type: string
+          description: id of the user
+        firstName:
+          type: string
+          description: name of the user 
+        lastName:
+          type: string
+          description: email of the user
+        currentCity:
+          type: string
+          description: password of the user 
+        postalCode:
+          type: number
+          description: name of the user
+        email:
+          type: string
+          description: name of the user
+        phone:
+          type: number
+          description: name of the user
+        degree:
+          type: string
+          description: name of the user
+        fieldOfStudy:
+          type: string
+          description: name of the user
+        college:
+          type: string
+          description: name of the user       
+        year:
+          type: string
+          description: name of the user
+        jobTitle:
+          type: string
+          description: name of the user
+        company:
+          type: string
+          description: name of the user
+        jobCity:
+          type: string
+          description: name of the user
+        jobYear:
+          type: string
+          description: name of the user
+        jobDesc:
+          type: string
+          description: name of the user
+        skills:
+          type: object
+          items: 
+            type: string
+      example:
+        firstName: datta
+        lastName: aneesh
+        currentCity: Vijayawada
+        postalCode: 521185
+        email: gopinadh546@gmail.com
+        phone: 1234567890
+        degree: Bachelor's Of Technology
+        fieldOfStudy: CSE
+        college: IIITS
+        year: 2019 to 2023
+        jobTitle: NA
+        company: NA
+        jobCity: NA
+        jobYear: NA
+        jobDesc: NA
+        skills: {c: true, python: true}
+
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+  
+security:
+  - bearerAuth: []      
+
+
+
