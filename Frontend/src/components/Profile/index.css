@@ -1,0 +1,153 @@
+.profile-container {
+  height: 100vh;
+  width: 100vw;
+
+  padding-top: 3rem;
+  display: flex;
+}
+
+.profile-left-container {
+  background-color: aliceblue;
+  display: flex;
+  height: 35rem;
+  width: 20rem;
+  flex-direction: column;
+  margin: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.profile-page-btns {
+  background-color: #1288f7;
+  color: white;
+  margin: 10px;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  font-size: large;
+  height: 50px;
+  border-radius: 10px;
+  box-shadow: 0 7px 7px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.prf-img h1 {
+  color: rgb(141, 146, 150);
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+
+.profile-image {
+  height: 8rem;
+  width: 8rem;
+}
+
+.profile-tabs {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.profile-right-container {
+  height: 86vh;
+  overflow-y: auto;
+  width: 60rem;
+  margin: 2rem;
+  border-radius: 10px;
+  margin-left: 50px;
+  background-color: aliceblue;
+  padding: 20px;
+  padding-left: 100px;
+}
+
+.active-tab {
+  background-color: #fff;
+  color: #1288f7;
+}
+
+.prf-img {
+  display: flex;
+  font-size: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  height: 125px;
+  width: 125px;
+}
+
+.profile-pic-container {
+  display: flex;
+}
+
+.profile-pic-upload-btn {
+  font-size: 40px;
+  color: #fff;
+  cursor: pointer;
+  transition: font-size 0.2s;
+  margin-top: 95px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #1288f7;
+  position: relative;
+  right: 30px;
+  bottom: 12px;
+}
+
+.profile-pic-upload-btn:hover {
+  font-size: 45px;
+}
+
+.image-upload > input {
+  display: none;
+}
+
+.profile-pic-upload-img {
+  height: 50px;
+  width: 80px;
+  margin-top: 95px;
+  position: relative;
+  right: 50px;
+  bottom: 15px;
+  cursor: pointer;
+}
+
+.profile-pic-submit-btn {
+  color: #fff;
+  cursor: pointer;
+  margin-top: 95px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #1288f7;
+  position: relative;
+  right: 30px;
+  bottom: 12px;
+  border: none;
+}
+
+.profile-pic-submit-icon {
+  font-size: 20px;
+}
+
+.profile-pic-delete-btn {
+  cursor: pointer;
+  margin-top: 95px;
+  padding: 8px;
+  border-radius: 50%;
+  background-color: #1288f7;
+  position: relative;
+  right: 28px;
+  bottom: 10px;
+  border: none;
+}
+
+.profile-pic-delete-icon {
+  color: #fff;
+  font-size: 15px;
+}

@@ -1,0 +1,182 @@
+.filters-card {
+  background-color: #fff;
+  width: 350px;
+  height: 90vh;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+  overflow-y: auto;
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 2rem 2rem 2rem 2rem;
+}
+
+.filters-card::-webkit-scrollbar {
+  display: none;
+}
+
+.filters-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.filters-heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+.filters-search-bar {
+  width: 290px;
+  outline: none;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.salary-estimate-heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.salary-filters {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.each-salary-filter {
+  color: grey;
+  margin: 5px 10px;
+  cursor: pointer;
+  padding: 10px;
+  height: 40px;
+  width: 100px;
+  text-align: center;
+}
+
+.active-salary-filter {
+  color: #437fc7;
+  font-weight: bold;
+  border: 1px solid #437fc7;
+  border-radius: 20px;
+}
+
+.location-heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+.select-location {
+  background-color: #fff;
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  outline: none;
+  color: grey;
+}
+
+.job-type-heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+.job-type-filters {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.each-job-type-filter {
+  margin: 5px 10px;
+  cursor: pointer;
+  padding: 10px;
+  height: 40px;
+  width: 100px;
+  text-align: center;
+  color: grey;
+}
+
+.active-job-type-filter {
+  color: #437fc7;
+  font-weight: bold;
+  border: 1px solid #437fc7;
+  border-radius: 20px;
+}
+
+.skills-heading-1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+.select-skill {
+  background-color: #fff;
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  outline: none;
+  color: grey;
+}
+
+.education-level-heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+.education-level-filters {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.each-education-level-filter {
+  margin: 10px;
+  cursor: pointer;
+  color: grey;
+}
+
+.active-education-level-filter {
+  color: #437fc7;
+  font-weight: bold;
+}
+
+.company-heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+.select-company {
+  background-color: #fff;
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  outline: none;
+  color: grey;
+}
+
+.filters-clear-button-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.filters-clear-button {
+  background-color: #1288f7;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0;
+}

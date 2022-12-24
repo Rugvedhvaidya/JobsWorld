@@ -1,0 +1,219 @@
+.post-company-details-container {
+  padding: 40px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.post-company-details-form-container {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 40px 50px;
+  border-radius: 20px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  background-color: #fff;
+}
+
+.post-company-details-heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+}
+
+.post-company-details-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.post-company-details-name {
+  background-color: #fff;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid rgb(196, 190, 190);
+}
+
+.post-company-details-name:focus {
+  border-bottom: 2px solid #437fc7;
+}
+
+.select-role-in-hiring-process {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(196, 190, 190);
+}
+
+.post-job-form-company-name-label {
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.post-job-form-label {
+  font-size: 15px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.post-company-details-description {
+  background-color: #fff;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid rgb(196, 190, 190);
+}
+
+.post-company-details-description:focus {
+  border-bottom: 2px solid #437fc7;
+}
+
+.post-company-details-location {
+  background-color: #fff;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid rgb(196, 190, 190);
+}
+
+.post-company-details-location:focus {
+  border-bottom: 2px solid #437fc7;
+  transition: 0.5s all-ease-in-out;
+}
+
+.post-company-details-location:focus::after {
+  background: #437fc7;
+}
+
+.number-of-postings-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.number-of-postings {
+  font-size: 20px;
+  margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.post-job-form-next-btn-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.post-job-form-next-btn {
+  background-color: #1288f7;
+  color: white;
+  padding: 10px 20px;
+  font-size: 15px;
+  margin-right: 30px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.post-job-form-error-msg {
+  font-size: 12px;
+  color: red;
+}
+
+.post-job-image {
+  width: 600px;
+  height: 400px;
+  margin-left: 100px;
+  margin-top: 100px;
+  position: sticky;
+}
+
+
+
+.hover-button{
+  border-radius: 100px;
+  border-color: white;
+  box-shadow: none;
+  text-align: center;
+  background-color: rgb(252, 243, 243);
+  font-size: small;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.hover-button.companyName:hover::after{
+  content: " ex. Microsoft";
+}
+
+.hover-button.myrole:hover::after{
+  content: " ex. Im hirring manager";
+}
+.hover-button.description:hover::after{
+  content: " ex. a brief description about your company";
+}
+.hover-button.comp-location:hover::after{
+  content: " ex. Hyderabad";
+}
+.hover-button.email:hover::after{
+  content: " ex. adhi@example.com";
+}
+.hover-button.phone:hover::after{
+  content: " ex. 9526871289";
+}
+.hover-button.degree:hover::after{
+  content: " ex. b.tech";
+}
+
+.hover-button.study:hover::after{
+  content: " ex. CSE";
+}
+
+.hover-button.collage:hover::after{
+  content: " ex. IIIT Sricity";
+}
+
+.hover-button.year:hover::after{
+  content: " ex. 2019 to 2023";
+}
+
+.hover-button.jobTitle:hover::after{
+  content: " ex. ML intern";
+}
+
+.hover-button.company:hover::after{
+  content: " ex. flipkart";
+}
+
+.hover-button.jobcity:hover::after{
+  content: " ex. Hyderabad";
+}
+
+.hover-button.jobtime:hover::after{
+  content: " ex. 2020 to 2021";
+}
+
+.hover-button.desc:hover::after{
+  content: " ex. a brief description about you job experience";
+}

@@ -1,0 +1,192 @@
+.grad {
+  /* background-image: repeating-conic-gradient(
+    rgb(205, 216, 223) 10%,
+    #6daffe 20%
+  ); */
+  border-radius: 0%;
+  background-color: #edf6ff;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  padding: 100px;
+}
+
+.resumeCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.resume-card-container {
+  background-color: #fff;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 2rem 7rem 2rem 2rem;
+  padding: 50px;
+}
+
+.resume-card-container-heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 5%;
+}
+
+.resume-card-column {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.resume-card-name {
+  display: flex;
+  flex-direction: row;
+}
+.resume-card-name-in {
+  margin-bottom: 1rem;
+  padding-right: 2rem;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+.resume-card-city-1 {
+  margin-bottom: 1rem;
+  padding-right: 2rem;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.resume-card-pincode {
+  margin-bottom: 1rem;
+  padding-right: 2rem;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.resume-card-marginbottom {
+  margin-bottom: 1rem;
+}
+
+.resume-label-marginbottom {
+  margin-bottom: 0.3rem;
+}
+
+.resume-fname-input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(163, 154, 154);
+  outline: none;
+}
+
+.resume-fname-input:focus {
+  border-bottom: 2px solid #437fc7;
+}
+
+.resume-email-input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(163, 154, 154);
+  outline: none;
+}
+.resume-email-input:focus {
+  border-bottom: 2px solid #437fc7;
+}
+
+.resumebtn {
+  font-weight: 700;
+  width: 22%;
+  height: 2.2rem;
+  border-radius: 2rem;
+  margin-left: 21rem;
+  background-color: #fff;
+  color: #437fc7;
+  border: 2px solid #437fc7;
+  cursor: pointer;
+  outline: none;
+}
+
+.resumebtn:hover {
+  color: #fff;
+  background-color: #437fc7;
+  border: none;
+  outline: none;
+}
+
+.resumeErrormsg {
+  color: red;
+  margin-top: 0px;
+}
+
+.resume-submit-msg {
+  color: white;
+  text-align: center;
+  background-color: grey;
+  width: 11rem;
+  margin: 0 0 1% 40%;
+  padding: 0.7rem 0 0.7rem 0;
+}
+
+.hover-button {
+  border-radius: 100px;
+  border-color: white;
+  box-shadow: none;
+  text-align: center;
+  background-color: rgb(252, 243, 243);
+  font-size: small;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.hover-button.firstname:hover::after {
+  content: " ex. Datta";
+}
+
+.hover-button.lastname:hover::after {
+  content: " ex. Aneesh";
+}
+.hover-button.city:hover::after {
+  content: " ex. Chennai";
+}
+.hover-button.zip:hover::after {
+  content: " ex. 534001";
+}
+.hover-button.email:hover::after {
+  content: " ex. adhi@example.com";
+}
+.hover-button.phone:hover::after {
+  content: " ex. 9526871289";
+}
+.hover-button.degree:hover::after {
+  content: " ex. b.tech";
+}
+
+.hover-button.study:hover::after {
+  content: " ex. CSE";
+}
+
+.hover-button.collage:hover::after {
+  content: " ex. IIIT Sricity";
+}
+
+.hover-button.year:hover::after {
+  content: " ex. 2019 to 2023";
+}
+
+.hover-button.jobTitle:hover::after {
+  content: " ex. ML intern";
+}
+
+.hover-button.company:hover::after {
+  content: " ex. flipkart";
+}
+
+.hover-button.jobcity:hover::after {
+  content: " ex. Hyderabad";
+}
+
+.hover-button.jobtime:hover::after {
+  content: " ex. 2020 to 2021";
+}
+
+.hover-button.desc:hover::after {
+  content: " ex. a brief description about you job experience";
+}

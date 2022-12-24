@@ -1,0 +1,33 @@
+.home-feature-container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 30px;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  width: 300px;
+  cursor: pointer;
+}
+
+.home-feature-container:hover {
+  transform: scale(1.12);
+  transition: 0.5s;
+}
+
+.home-feature-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.home-feature-heading {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.home-feature-description {
+  font-size: 15px;
+  margin: 0;
+}

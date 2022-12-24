@@ -1,0 +1,138 @@
+.resume-detailed-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #edf6ff;
+  padding-top: 70px;
+}
+.resume-summary-Name {
+  color: #095ead;
+  font-size: 3em;
+  padding: 15px;
+  padding-left: 0%;
+}
+
+.resume-summary-card {
+  background-color: #fff;
+  width: 900px;
+  padding: 40px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-bottom: 2px solid #edf6ff;
+}
+
+.intro {
+  margin-bottom: 20px;
+}
+.resume-summary-card-city {
+  font-size: 16px;
+  margin: 7px;
+  margin-left: 0%;
+}
+.resume-summary-card-phone {
+  font-size: 16px;
+  margin: 5px;
+  margin-left: 0%;
+}
+.resume-summary-card-email {
+  font-size: 16px;
+  margin: 5px;
+  margin-left: 0%;
+}
+.resume-summary-card-role {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+.education {
+  margin-top: 5px;
+  padding-left: 60px;
+}
+.resume-summary-card-college {
+  font-size: 16px;
+  margin: 10px;
+  margin-left: 0%;
+}
+.resume-summary-card-year {
+  font-size: 16px;
+  margin: 10px;
+  margin-left: 0%;
+}
+.resume-summary-card-fieldOfStudy {
+  font-size: 16px;
+  margin: 10px;
+
+  margin-left: 0%;
+}
+.resume-summary-card-degree {
+  font-size: 16px;
+  margin: 10px;
+  margin-left: 0%;
+}
+
+.resume-summary-card-reviews:hover {
+  color: #437fc7;
+}
+
+.resume-detailed-card {
+  background-color: #fff;
+  width: 900px;
+  padding: 40px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+.education-heading {
+  font-size: 15px;
+}
+
+.resume-detailed-card-education {
+  margin-bottom: 20px;
+}
+.Work-Ex {
+  margin-bottom: 20px;
+}
+.skills-heading {
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: -5px;
+}
+
+.resume-detailed-view-skills-container {
+  list-style-type: disc;
+  margin: 3px;
+  margin-left: 30px;
+}
+
+.resume-detailed-view-skill {
+  margin: 2px;
+}
+.skill-p {
+  font-size: 20px;
+}
+
+.resume-detailed-view-apply-button {
+  background-color: #437fc7;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.work-experience {
+  margin-top: 5px;
+  padding-left: 60px;
+  padding-right: 50px;
+}

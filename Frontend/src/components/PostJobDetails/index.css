@@ -1,0 +1,274 @@
+.post-job-details-container {
+  padding: 40px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.post-job-details-container-form {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  background-color: #fff;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 40px 50px;
+  border-radius: 20px;
+}
+
+.post-job-details-heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+}
+
+.post-job-details-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.job-title-label {
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.post-job-title-input {
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid rgb(196, 190, 190);
+}
+
+.post-job-title-input:focus {
+  border-bottom: 2px solid #437fc7;
+}
+
+.post-job-description-input {
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid rgb(196, 190, 190);
+}
+
+.post-job-description-input:focus {
+  border-bottom: 2px solid #437fc7;
+}
+
+.post-role-category-input {
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid rgb(196, 190, 190);
+}
+
+.post-role-category-input:focus {
+  border-bottom: 2px solid #437fc7;
+}
+
+.post-job-details-form-label {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.post-job-salary-input {
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid rgb(196, 190, 190);
+}
+
+.post-job-salary-input:focus {
+  border-bottom: 2px solid #437fc7;
+}
+
+.post-job-work-experience-input {
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid rgb(196, 190, 190);
+}
+
+.post-job-work-experience-input:focus {
+  border-bottom: 2px solid #437fc7;
+}
+
+.select-job-type {
+  background-color: #fff;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(196, 190, 190);
+}
+
+.select-education-level {
+  background-color: #fff;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(196, 190, 190);
+}
+
+.post-job-details-previous-button {
+  background-color: #1288f7;
+  padding: 10px;
+  margin: 10px;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.post-job-details-submit-button {
+  background-color: #1288f7;
+  padding: 10px;
+  margin: 10px;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.post-job-form-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.post-job-form-skills-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.post-job-form-skill {
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.post-job-form-selected-skill {
+  color: #1288f7;
+  font-weight: bold;
+  border: 1px solid #1288f7;
+  border-radius: 20px;
+}
+
+.post-job-form-non-selected-skill {
+  color: #000;
+}
+
+.post-job-details-image {
+  width: 600px;
+  height: 400px;
+  margin-left: 100px;
+  margin-top: 100px;
+  position: sticky;
+}
+
+
+
+.hover-button{
+  border-radius: 100px;
+  border-color: white;
+  box-shadow: none;
+  text-align: center;
+  background-color: rgb(252, 243, 243);
+  font-size: small;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.hover-button.jobtitle:hover::after{
+  content: " ex. Software developer";
+}
+
+.hover-button.role:hover::after{
+  content: " ex. SDE II";
+}
+.hover-button.job-description:hover::after{
+  content: " ex. a brief description about your company";
+}
+.hover-button.comp-location:hover::after{
+  content: " ex. Hyderabad";
+}
+.hover-button.Pay:hover::after{
+  content: " ex. salary you are willing to pay";
+}
+.hover-button.work-exp:hover::after{
+  content: " ex. 3 years";
+}
+.hover-button.jobtype:hover::after{
+  content: " ex. fresher";
+}
+
+.hover-button.ed-level:hover::after{
+  content: " ex. B.tech";
+}
+
+.hover-button.req-skills:hover::after{
+  content: " ex. python (select skills for job)";
+}
+
+.hover-button.year:hover::after{
+  content: " ex. 2019 to 2023";
+}
+
+.hover-button.jobTitle:hover::after{
+  content: " ex. ML intern";
+}
+
+.hover-button.company:hover::after{
+  content: " ex. flipkart";
+}
+
+.hover-button.jobcity:hover::after{
+  content: " ex. Hyderabad";
+}
+
+.hover-button.jobtime:hover::after{
+  content: " ex. 2020 to 2021";
+}
+
+.hover-button.desc:hover::after{
+  content: " ex. a brief description about you job experience";
+}

@@ -1,0 +1,17 @@
+.empty-shortlist-container{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.empty-shortlist-heading{
+    color:gold;
+}
+
+.empty-shortlist-description{
+    color:#1288f7;
+    font-weight:bold;
+    font-size:20px;
+}

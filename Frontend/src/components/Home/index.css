@@ -1,0 +1,131 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.home-best-company-card {
+  background-image: url("./Images/shakehand-cropped.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.home-best-company-card-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  margin-top: 150px;
+  margin-left: 90px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.home-image-1 {
+  height: 500px;
+  width: 600px;
+}
+
+.home-post-job-card {
+  background-image: url("./Images/Postjob-cropped-01.jpeg");
+  background-size: cover;
+  /* background-color: #bedcfa; */
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.home-post-job-card-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.home-image-2 {
+  height: 400px;
+  width: 600px;
+}
+
+.home-resume-card {
+  background-color: #fff;
+  width: 100%;
+  padding: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+}
+
+.home-resume-card-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.home-image-3 {
+  height: 300px;
+  width: 450px;
+}
+
+.home-page-card-button {
+  font-size: 15px;
+  font-weight: bold;
+  height: 50px;
+  width: 120px;
+  margin-top: 20px;
+  background-color: tomato;
+  color: #fff;
+  padding: 10px 20px;
+  border: 0;
+  outline: 0;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.home-page-card-button:hover {
+  background-color: transparent;
+  border: 2px solid tomato;
+  color: tomato;
+}
+
+.home-features-container {
+  background-color: #edf6ff;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.home-features-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: -20px;
+}
+
+.home-categories-heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 40px;
+}

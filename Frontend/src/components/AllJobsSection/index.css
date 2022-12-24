@@ -1,0 +1,46 @@
+.all-jobs-section {
+  background-color: #edf6ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 130px;
+  padding-top: 70px;
+}
+
+.jobs-container {
+  padding: 20px;
+  height: 100vh;
+  margin-left: 30px;
+  overflow-y: auto;
+}
+
+.jobs-container::-webkit-scrollbar {
+  display: none;
+}
+
+.page-numbers-container {
+  background-color: #edf6ff;
+}
+
+.page-numbers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40%;
+  width: 640px;
+}
+
+.page-number-btn {
+  background-color: white;
+  margin: 10px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.active-page-number {
+  border: 2px solid black;
+}

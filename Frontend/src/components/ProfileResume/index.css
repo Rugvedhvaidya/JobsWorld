@@ -1,0 +1,179 @@
+.resume2-detailed-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #edf6ff;
+  padding-right: 4.7rem;
+  margin-top: -2rem;
+}
+.resume2-summary-Name {
+  color: #095ead;
+  font-size: 3em;
+  padding: 15px;
+  padding-left: 0%;
+}
+.resume2-summary-card {
+  background-color: #fff;
+  width: 870px;
+  padding: 40px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-bottom: 2px solid #edf6ff;
+}
+
+.intro {
+  margin-bottom: 20px;
+}
+.resume2-summary-card-city {
+  font-size: 16px;
+  margin: 7px;
+  margin-left: 0%;
+}
+.resume2-summary-card-phone {
+  font-size: 16px;
+  margin: 5px;
+  margin-left: 0%;
+}
+.resume2-summary-card-email {
+  font-size: 16px;
+  margin: 5px;
+  margin-left: 0%;
+}
+.resume2-summary-card-role {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+.education {
+  margin-top: 5px;
+  padding-left: 60px;
+}
+.resume2-summary-card-college {
+  font-size: 16px;
+  margin: 10px;
+  margin-left: 0%;
+}
+.resume2-summary-card-year {
+  font-size: 16px;
+  margin: 10px;
+  margin-left: 0%;
+}
+.resume2-summary-card-fieldOfStudy {
+  font-size: 16px;
+  margin: 10px;
+
+  margin-left: 0%;
+}
+.resume2-summary-card-degree {
+  font-size: 16px;
+  margin: 10px;
+  margin-left: 0%;
+}
+
+.resume2-summary-card-reviews:hover {
+  color: #437fc7;
+}
+
+.education-heading {
+  font-size: 15px;
+}
+
+.resume2-detailed-card-education {
+  margin-bottom: 20px;
+}
+.Work-Ex {
+  margin-bottom: 20px;
+}
+.skills-heading {
+  color: #0f6abe;
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: -5px;
+}
+
+.work-experience-heading{
+  color: #0f6abe;
+}
+
+
+
+.resume2-detailed-view-skills-container {
+  list-style-type: disc;
+  margin: 3px;
+  margin-left: 30px;
+}
+
+.resume2-detailed-view-skill {
+  margin: 2px;
+}
+.skill-p {
+  font-size: 20px;
+}
+
+.resume2-detailed-view-apply-button {
+  background-color: #437fc7;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.work-experience {
+  margin-top: 5px;
+  padding-left: 60px;
+  padding-right: 50px;
+}
+
+.resume-btns {
+  position: relative;
+  left: 33rem;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.resume-edit-btn {
+  font-weight: 700;
+  width: 7rem;
+  height: 2.2rem;
+  border-radius: 2rem;
+  background-color: #fff;
+  color: #1288f7;
+  border: 2px solid #1288f7;
+  cursor: pointer;
+  outline: none;
+}
+
+
+.resume-edit-btn:hover {
+  color: #fff;
+  background-color: #1288f7;
+  border: none;
+  outline: none;
+}
+
+.resume-delete-btn {
+  font-weight: 700;
+  width: 7.5rem;
+  height: 2.2rem;
+  border-radius: 2rem;
+  background-color: #fff;
+  color: rgb(238, 48, 48);
+  border: 2px solid rgb(238, 48, 48);
+  cursor: pointer;
+  outline: none;
+  margin-left: 1rem;
+}
+.resume-delete-btn:hover {
+  color: #fff;
+  background-color: rgb(238, 48, 48);
+  border: none;
+  outline: none;
+}

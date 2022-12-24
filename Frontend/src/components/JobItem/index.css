@@ -1,0 +1,170 @@
+.job-detailed-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #edf6ff;
+  padding-top: 70px;
+}
+
+.job-summary-card {
+  background-color: #fff;
+  width: 700px;
+  padding: 40px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-bottom: 2px solid #edf6ff;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 20px;
+}
+
+.job-summary-card-role {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.job-summary-card-company-reviews {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 5px;
+}
+
+.job-summary-card-company {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.job-summary-card-reviews {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.job-summary-card-reviews:hover {
+  color: #437fc7;
+}
+
+.job-summary-card-listing-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.job-summary-card-listing {
+  font-size: 15px;
+  margin-left: 10px;
+  margin: 8px;
+}
+
+.job-detailed-card {
+  background-color: #fff;
+  width: 700px;
+  padding: 40px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 50px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.job-description-heading {
+  font-size: 15px;
+}
+
+.job-detailed-card-description {
+  font-size: 15px;
+}
+
+.about-company-heading {
+  font-size: 15px;
+}
+
+.job-detailed-card-about-company {
+  font-size: 15px;
+}
+
+.education-heading {
+  font-size: 15px;
+}
+
+.job-detailed-card-education {
+  font-size: 15px;
+}
+
+.skills-heading {
+  font-size: 15px;
+}
+
+.job-detailed-view-skills-container {
+  list-style-type: disc;
+}
+
+.job-detailed-view-skill {
+  margin-top: 5px;
+}
+
+.employment-type-heading {
+  font-size: 15px;
+}
+
+.job-detailed-view-employment-type {
+  font-size: 15px;
+}
+
+.role-category-heading {
+  font-size: 15px;
+}
+
+.job-detailed-view-role-category {
+  font-size: 15px;
+}
+
+.job-summary-card-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.postings-and-posted-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.job-summary-card-posted {
+  font-size: 12px;
+}
+
+.job-summary-card-postings {
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.job-detailed-view-apply-button {
+  background-color: #437fc7;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

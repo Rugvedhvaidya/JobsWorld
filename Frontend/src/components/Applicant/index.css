@@ -1,0 +1,30 @@
+.applicant-card {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(224, 221, 221);
+}
+
+.applicant-card-name {
+  margin: 0;
+  padding: 0;
+  width: 400px;
+}
+
+.applicant-card-email {
+  margin: 0;
+  padding: 0;
+  width: 400px;
+}
+
+.applicant-card-btn {
+  margin: 0;
+  padding: 5px 10px;
+  background-color: #437fc7;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
