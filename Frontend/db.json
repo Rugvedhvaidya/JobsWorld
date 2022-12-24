@@ -1,0 +1,917 @@
+{
+  "user_applications": [
+    {
+      "id": 1,
+      "user_id": "Qj8coRtcqpXmKgpVEUAsGnyeWKA3",
+      "post_ids": []
+    },
+    {
+      "user_id": "MEDllDaawvXR205pRVyXw1nIHrV2",
+      "post_ids": [],
+      "id": 2
+    },
+    {
+      "id": 3,
+      "user_id": "8CTp8hWVH1dqHc4ZMIRZfwEsA9L2",
+      "post_ids": [
+        25,
+        27
+      ]
+    },
+    {
+      "user_id": "Fmwa2TH6Q8gVZU9y0Bsp9dbtAsO2",
+      "post_ids": [],
+      "id": 4
+    }
+  ],
+  "applicants": [
+    {
+      "post_id": "1",
+      "applicant_ids": [
+        "Fmwa2TH6Q8gVZU9y0Bsp9dbtAsO2",
+        "mbuJKwtSUYYW7k2ooy8CbpqGZNf2",
+        "8CTp8hWVH1dqHc4ZMIRZfwEsA9L2",
+        "ez1RTjRlENZiWzdDaqOc3ifSqLI2",
+        "XRrPOQmNL5TTDQfDXXgtpbTnygd2",
+        "54Khb3ZBQcYErL8yoLirBtDg5V13",
+        "Qj8coRtcqpXmKgpVEUAsGnyeWKA3"
+      ],
+      "id": 3
+    },
+    {
+      "post_id": "10",
+      "applicant_ids": [
+        "Fmwa2TH6Q8gVZU9y0Bsp9dbtAsO2",
+        "mbuJKwtSUYYW7k2ooy8CbpqGZNf2",
+        "8CTp8hWVH1dqHc4ZMIRZfwEsA9L2"
+      ],
+      "id": 4
+    },
+    {
+      "post_id": "8",
+      "applicant_ids": [
+        "8CTp8hWVH1dqHc4ZMIRZfwEsA9L2",
+        "ez1RTjRlENZiWzdDaqOc3ifSqLI2",
+        "XRrPOQmNL5TTDQfDXXgtpbTnygd2"
+      ],
+      "id": 5
+    },
+    {
+      "post_id": "2",
+      "applicant_ids": [
+        "XRrPOQmNL5TTDQfDXXgtpbTnygd2",
+        "54Khb3ZBQcYErL8yoLirBtDg5V13",
+        "Qj8coRtcqpXmKgpVEUAsGnyeWKA3"
+      ],
+      "id": 6
+    },
+    {
+      "post_id": 27,
+      "applicant_ids": [
+        "8CTp8hWVH1dqHc4ZMIRZfwEsA9L2",
+        "Qj8coRtcqpXmKgpVEUAsGnyeWKA3"
+      ],
+      "id": 7
+    },
+    {
+      "post_id": 25,
+      "applicant_ids": [
+        "8CTp8hWVH1dqHc4ZMIRZfwEsA9L2"
+      ],
+      "id": 8
+    },
+    {
+      "post_id": 26,
+      "applicant_ids": [],
+      "id": 9
+    },
+    {
+      "post_id": "4",
+      "applicant_ids": [],
+      "id": 10
+    },
+    {
+      "post_id": "624a78dfcfb175f09b24e973",
+      "applicant_ids": [],
+      "id": 11
+    },
+    {
+      "post_id": "624a87e22f7541b36607ef49",
+      "applicant_ids": [],
+      "id": 12
+    }
+  ],
+  "shortlist": [
+    {
+      "user_id": "Qj8coRtcqpXmKgpVEUAsGnyeWKA3",
+      "shortlisted_ids": [],
+      "id": 1
+    },
+    {
+      "user_id": "MEDllDaawvXR205pRVyXw1nIHrV2",
+      "shortlisted_ids": [],
+      "id": 2
+    },
+    {
+      "user_id": "8CTp8hWVH1dqHc4ZMIRZfwEsA9L2",
+      "shortlisted_ids": [
+        27
+      ],
+      "id": 3
+    },
+    {
+      "user_id": "Fmwa2TH6Q8gVZU9y0Bsp9dbtAsO2",
+      "shortlisted_ids": [],
+      "id": 4
+    }
+  ],
+  "resumes": [
+    {
+      "user_id": "Fmwa2TH6Q8gVZU9y0Bsp9dbtAsO2",
+      "firstName": "Sai Gopinadh",
+      "lastName": "Thorlikonda",
+      "currentCity": "Vijayawada",
+      "postalCode": "517646",
+      "email": "sai@gmail.com",
+      "phone": "8106528987",
+      "degree": "bachelor",
+      "fieldOfStudy": "CSE",
+      "college": "IIITS",
+      "year": "2018 to 2022",
+      "jobTitle": "AI Intern",
+      "company": "Google",
+      "jobCity": "Hyderabad",
+      "jobYear": "2021",
+      "jobDesc": "AI intern at Google, worked in research",
+      "skills": {
+        "c": true,
+        "cpp": true,
+        "python": true,
+        "java": false
+      },
+      "id": 1
+    },
+    {
+      "user_id": "mbuJKwtSUYYW7k2ooy8CbpqGZNf2",
+      "firstName": "Rugvedh",
+      "lastName": "Vaidya",
+      "currentCity": "Nizamabad",
+      "postalCode": "503224",
+      "email": "rugvedhvaidya123@gmail.com",
+      "phone": "8106528887",
+      "degree": "bachelor",
+      "fieldOfStudy": "CSE",
+      "college": "IIITS",
+      "year": "2018 to 2022",
+      "jobTitle": "ML Intern",
+      "company": "Microsoft",
+      "jobCity": "Banglore",
+      "jobYear": "2021",
+      "jobDesc": "Worked as ML intern in Microsoft on some machine learning applications",
+      "skills": {
+        "c": true,
+        "cpp": false,
+        "python": true,
+        "java": true
+      },
+      "id": 2
+    },
+    {
+      "id": 3,
+      "user_id": "8CTp8hWVH1dqHc4ZMIRZfwEsA9L2",
+      "firstName": "Sai Gopi",
+      "lastName": "Nadh",
+      "currentCity": "Nandigama",
+      "postalCode": "503212",
+      "email": "gopinadh546@gmail.com",
+      "phone": "9440882121",
+      "degree": "master",
+      "fieldOfStudy": "ECE",
+      "college": "IITB",
+      "year": "2017 to 2021",
+      "jobTitle": "Sofware developer",
+      "company": "Oracle",
+      "jobCity": "Mumbai",
+      "jobYear": "2021",
+      "jobDesc": "Software developer at Oracle",
+      "skills": {
+        "c": true,
+        "cpp": true,
+        "python": true,
+        "java": false
+      }
+    },
+    {
+      "user_id": "ez1RTjRlENZiWzdDaqOc3ifSqLI2",
+      "firstName": "Mukundh",
+      "lastName": "Tupili",
+      "currentCity": "Nellore",
+      "postalCode": "517646",
+      "email": "tupilimukundhreddy@gmail.com",
+      "phone": "8106528234",
+      "degree": "bachelor",
+      "fieldOfStudy": "CSE",
+      "college": "IIITS",
+      "year": "2018 to 2022",
+      "jobTitle": "Sofware developer Intern",
+      "company": "Delloite",
+      "jobCity": "Hyderabad",
+      "jobYear": "2021",
+      "jobDesc": "Worked at Delloite",
+      "skills": {
+        "c": true,
+        "cpp": true,
+        "python": true,
+        "java": false
+      },
+      "id": 4
+    },
+    {
+      "user_id": "XRrPOQmNL5TTDQfDXXgtpbTnygd2",
+      "firstName": "Datta Aneesh",
+      "lastName": "Thota",
+      "currentCity": "Eluru",
+      "postalCode": "517646",
+      "email": "dattaaneesht@gmail.com",
+      "phone": "8106534456",
+      "degree": "bachelor",
+      "fieldOfStudy": "CSE",
+      "college": "IIITH",
+      "year": "2018 to 2022",
+      "jobTitle": "AI Intern",
+      "company": "Google",
+      "jobCity": "Chennai",
+      "jobYear": "2021",
+      "jobDesc": "Worked as AI intern in Google",
+      "skills": {
+        "c": true,
+        "cpp": true,
+        "python": true,
+        "java": true
+      },
+      "id": 5
+    },
+    {
+      "user_id": "54Khb3ZBQcYErL8yoLirBtDg5V13",
+      "firstName": "Rakesh",
+      "lastName": "Tulluri",
+      "currentCity": "Khammam",
+      "postalCode": "503233",
+      "email": "rakesht@gmail.com",
+      "phone": "9440883333",
+      "degree": "doctorate",
+      "fieldOfStudy": "CSE",
+      "college": "IITM",
+      "year": "2018 to 2022",
+      "jobTitle": "Sofware developer",
+      "company": "Swiggy",
+      "jobCity": "Banglore",
+      "jobYear": "2021",
+      "jobDesc": "Worked as software developer at Swiggy",
+      "skills": {
+        "c": false,
+        "cpp": true,
+        "python": true,
+        "java": true
+      },
+      "id": 6
+    },
+    {
+      "user_id": "0dTIBFpLO3NheSccdZodYGVaa162",
+      "firstName": "Ritvik",
+      "lastName": "Chekuri",
+      "currentCity": "Vijayawada",
+      "postalCode": "517645",
+      "email": "ritvik12@gmail.com",
+      "phone": "8106529987",
+      "degree": "12",
+      "fieldOfStudy": "MPC",
+      "college": "Narayana",
+      "year": "2017-2019",
+      "jobTitle": "Frontend developer",
+      "company": "Meta",
+      "jobCity": "Delhi",
+      "jobYear": "2021",
+      "jobDesc": "Worked as frontend developer in Meta also known as Facebook",
+      "skills": {
+        "c": true,
+        "cpp": true,
+        "python": true,
+        "java": true
+      },
+      "id": 7
+    },
+    {
+      "user_id": "PNV3xsgDPKaaTNDSXQiwNMp3f9E2",
+      "firstName": "Bhaskar",
+      "lastName": "Veduru",
+      "currentCity": "Hyderabad",
+      "postalCode": "503224",
+      "email": "bhaskar@gmail.com",
+      "phone": "9440882332",
+      "degree": "diplomo",
+      "fieldOfStudy": "Maths",
+      "college": "Narayana",
+      "year": "2017-2019",
+      "jobTitle": "Teacher",
+      "company": "Narayana",
+      "jobCity": "Hyderabad",
+      "jobYear": "2021",
+      "jobDesc": "Worked as a teacher in Narayana",
+      "skills": {
+        "c": true,
+        "cpp": true,
+        "python": true,
+        "java": true
+      },
+      "id": 8
+    },
+    {
+      "user_id": "MVjHqjwIEbRYAo7wI6dTvqOAJBd2",
+      "firstName": "Rugvedh",
+      "lastName": "Vai",
+      "currentCity": "Mumbai",
+      "postalCode": "503224",
+      "email": "rugvedh@gmail.com",
+      "phone": "9440882221",
+      "degree": "master",
+      "fieldOfStudy": "CSE",
+      "college": "IITB",
+      "year": "2018 to 2022",
+      "jobTitle": "NA",
+      "company": "NA",
+      "jobCity": "NA",
+      "jobYear": "NA",
+      "jobDesc": "NA",
+      "skills": {
+        "c": true,
+        "cpp": true,
+        "python": true,
+        "java": false
+      },
+      "id": 9
+    },
+    {
+      "user_id": "bE6fEUHUJxc06dVREgORZZYf5L83",
+      "firstName": "Rakesh",
+      "lastName": "Tul",
+      "currentCity": "Chennai",
+      "postalCode": "517646",
+      "email": "rakesh@gmail.com",
+      "phone": "8106528822",
+      "degree": "10",
+      "fieldOfStudy": "SSC",
+      "college": "Model school",
+      "year": "2017-2018",
+      "jobTitle": "NA",
+      "company": "NA",
+      "jobCity": "NA",
+      "jobYear": "NA",
+      "jobDesc": "NA",
+      "skills": {
+        "c": true,
+        "cpp": false,
+        "python": true,
+        "java": false
+      },
+      "id": 10
+    },
+    {
+      "user_id": "Qj8coRtcqpXmKgpVEUAsGnyeWKA3",
+      "firstName": "Rakesh",
+      "lastName": "Tulluri",
+      "currentCity": "Khammam",
+      "postalCode": "507002",
+      "email": "rakeshnani@gmail.com",
+      "phone": "8688738689",
+      "degree": "bachelor",
+      "fieldOfStudy": "CSE",
+      "college": "IIITS",
+      "year": "2019 to 2023",
+      "jobTitle": "Sofware developer",
+      "company": "Google",
+      "jobCity": "Bangalore",
+      "jobYear": "2017 to 2018",
+      "jobDesc": "Worked as software developer at Google",
+      "skills": {
+        "c": true,
+        "cpp": true,
+        "python": true,
+        "java": true
+      },
+      "id": 11
+    }
+  ],
+  "jobs": [
+    {
+      "user_id": "Qj8coRtcqpXmKgpVEUAsGnyeWKA3",
+      "id": 1,
+      "company_name": "Atmecs Technologies",
+      "company_description": "ATMECS is a result-oriented full-service engineering and R&D organization. We are Technology Accelerators bringing in visible transformation for our clients through automation, adoption of leading-ed",
+      "company_location": "Hyderabad",
+      "number_of_postings": 10,
+      "job_title": "Senior software developer",
+      "job_description": "Sr. Software Developer contributes to all phases of the Software Development Lifecycle through the analysis, design, implementation.",
+      "role_category": "Software Development",
+      "salary": 1200000,
+      "work_experience": "3",
+      "job_type": "Contract",
+      "education_level": "Diploma",
+      "skills": [
+        "JavaScript",
+        "Angular",
+        "ReactJS"
+      ]
+    },
+    {
+      "user_id": "Qj8coRtcqpXmKgpVEUAsGnyeWKA3",
+      "company_name": "Oracle",
+      "company_description": "We are an education institute in Sydney, Australia. You will be part of our digital marketing Team. More information can be shared in the interview.",
+      "company_location": "Hyderabad",
+      "number_of_postings": 10,
+      "job_title": "Full Stack Web Developer",
+      "job_description": "Support, maintain and develop new modules/features in critical web-based applications that run our core business.",
+      "role_category": "Software Development",
+      "salary": 425000,
+      "work_experience": "3",
+      "job_type": "FullTime",
+      "education_level": "Bachelor's Degree",
+      "skills": [
+        "Java",
+        "ReactJS",
+        "JavaScript",
+        "Angular"
+      ],
+      "id": 2
+    },
+    {
+      "user_id": "fEChE7yb6VUPW8kErs6EpCqfpIp1",
+      "company_name": "Oracle",
+      "company_description": "In spite of numerous government and private banks across the country, certain weaker sections of the society have been neglected over the period of time due to which there has been immense rise in the co-operative sector. ",
+      "company_location": "Vijayawada",
+      "number_of_postings": 5,
+      "job_title": "Software Programmer/IT Analyst",
+      "job_description": "Design, develop and implement school management system.",
+      "role_category": "Software Development",
+      "salary": 575000,
+      "work_experience": "3",
+      "job_type": "FullTime",
+      "education_level": "Bachelor's Degree",
+      "skills": [
+        "Java",
+        "Python"
+      ],
+      "id": 3
+    },
+    {
+      "user_id": "Fmwa2TH6Q8gVZU9y0Bsp9dbtAsO2",
+      "id": 4,
+      "company_name": "ANA DATA CONSULTING PRIVATE LIMITED",
+      "company_description": "Ana-Data is technology consulting company specializing in design and development of software applications that help our clients meet their strategic and operational needs.",
+      "company_location": "Chennai",
+      "number_of_postings": 28,
+      "job_title": "H1B Visa- Cloud Developer / Engineer",
+      "job_description": "We are seeking Cloud Engineers who has experience with Cloud Development, Big Data technologies, Kafka and Spark streaming. Primary responsibilities include but not limited to:",
+      "role_category": "DBA / Data warehousing",
+      "salary": 1000000,
+      "work_experience": "7",
+      "job_type": "Contract",
+      "education_level": "Diploma",
+      "skills": [
+        "Java",
+        "Python",
+        "ReactJS"
+      ]
+    },
+    {
+      "user_id": "Fmwa2TH6Q8gVZU9y0Bsp9dbtAsO2",
+      "company_name": "Meynikara Solutions Private Limited",
+      "company_description": "Meynikara is an AR/VR company based in Chennai operating since 2013. We have customer base in India, Singapore and UK. Our Vision is to become a 'Trend Setter' in the market.We are looking for energetic and passionate Unity 3d developers to join our team.\n\nBelow is our website link,\n\nhttps://www.meynikara.com",
+      "company_location": "Banglore",
+      "number_of_postings": 23,
+      "job_title": "Unity Game Developer",
+      "job_description": "We are looking for a talented Unity 3D developer to join our team and build next generation games by translating the ideas of the design team into a virtual environment that can be scaled and manipulated accordingly.\n\nAs a unity developer, you will be responsible for planning and implementing game functionality and building the game code.",
+      "role_category": "Software Development",
+      "salary": 350000,
+      "work_experience": "2",
+      "job_type": "Temporary",
+      "education_level": "Bachelor's Degree",
+      "skills": [
+        "Python",
+        "Java"
+      ],
+      "id": 5
+    },
+    {
+      "user_id": "fEChE7yb6VUPW8kErs6EpCqfpIp1",
+      "company_name": "Qualcomm Technologies",
+      "company_description": "Qualcomm Incorporated is an American multinational semiconductor and telecommunications equipment company that designs and markets wireless telecommunications products and services. ",
+      "company_location": "Hyderabad",
+      "number_of_postings": 1,
+      "job_title": "IT Software Developer",
+      "job_description": "Designs and develops IP analysis applications for one the worlds largest patent portfolios. Develop web applications and engineering tools that includes programming at the data layer, integration layer, API layer, and the UI layer.",
+      "role_category": "Full Stack Developer",
+      "salary": 1750000,
+      "work_experience": "5",
+      "job_type": "FullTime",
+      "education_level": "Diploma",
+      "skills": [
+        "Python"
+      ],
+      "id": 6
+    },
+    {
+      "user_id": "Fmwa2TH6Q8gVZU9y0Bsp9dbtAsO2",
+      "company_name": "Oracle",
+      "company_description": "It is inolved in Software publishing, consultancy and supply [Software publishing includes production, supply and documentation of ready-made (non-customized) software, operating systems software, business & other applications software, computer games software for all platforms",
+      "company_location": "Bangalore",
+      "number_of_postings": 2,
+      "job_title": "Senior Software Automation Test Engineer",
+      "job_description": "We are looking for a Senior Software Automation Test Engineer with 4+ years of experience. The candidate will work closely with members of the QA, development, technical documentation and product management teams to assure that ERP products meet high standards for quality.\n\n",
+      "role_category": "IT Security",
+      "salary": 1250000,
+      "work_experience": "4",
+      "job_type": "FullTime",
+      "education_level": "Master's Degree",
+      "skills": [
+        "Java"
+      ],
+      "id": 7
+    },
+    {
+      "user_id": "Qj8coRtcqpXmKgpVEUAsGnyeWKA3",
+      "company_name": "Codersbrain",
+      "company_description": "Coders Brain is a global leader in it services, digital and business solutions that partners with its clients to simplify, strengthen and transform their businesses. ",
+      "company_location": "Chennai",
+      "number_of_postings": 3,
+      "job_title": "Full stack developer",
+      "job_description": "Able to bring best practices and processes in Java development.Be able to work as a developer across multiple modulesareas.",
+      "role_category": "Software Development",
+      "salary": 1500000,
+      "work_experience": "6",
+      "job_type": "FullTime",
+      "education_level": "Bachelor's Degree",
+      "skills": [
+        "Java",
+        "Angular"
+      ],
+      "id": 8
+    },
+    {
+      "user_id": "Fmwa2TH6Q8gVZU9y0Bsp9dbtAsO2",
+      "company_name": "Oracle",
+      "company_description": "The world’s leading provider of\ntechnology-enabled language, content management and intellectual property services\n",
+      "company_location": "Mumbai",
+      "number_of_postings": 3,
+      "job_title": "Full stack developer",
+      "job_description": "As a member of the RWS India Development team the Sr. Full Stack Developer will support the further development of existing products and the architecture of new products.",
+      "role_category": "Software Development",
+      "salary": 2750000,
+      "work_experience": "2",
+      "job_type": "FullTime",
+      "education_level": "Master's Degree",
+      "skills": [
+        "Java",
+        "JavaScript"
+      ],
+      "id": 9
+    },
+    {
+      "user_id": "Qj8coRtcqpXmKgpVEUAsGnyeWKA3",
+      "company_name": "Unify Technologies Pvt Ltd",
+      "company_description": "We help our clients develop, deliver and support high-quality products and services, rapidly and cost-effectively. We have extensive experience in software product engineering and a successful track record of delivering on aggressive delivery plans without compromising on quality.\n\n",
+      "company_location": "Hyderabad",
+      "number_of_postings": 2,
+      "job_title": "Full stack developer",
+      "job_description": "We are looking to hire extraordinary individuals with strong communication and interpersonal skills and the ability to work effectively across multiple business and technical teams.",
+      "role_category": "Software Development",
+      "salary": 1000000,
+      "work_experience": "4",
+      "job_type": "FullTime",
+      "education_level": "Bachelor's Degree",
+      "skills": [
+        "Python",
+        "JavaScript"
+      ],
+      "id": 10
+    },
+    {
+      "user_id": "Fmwa2TH6Q8gVZU9y0Bsp9dbtAsO2",
+      "company_name": "Surya Software Systems Pvt Ltd",
+      "company_description": "Surya builds digital products and helps companies with their digital transformation. Our clients are based in India, USA, Europe, Africa, and the Middle East.",
+      "company_location": "Bangalore",
+      "number_of_postings": 1,
+      "job_title": "Full stack developer",
+      "job_description": "You will develop applications which will be used worldwide by different customers. You will be solving different business problems in terms of products requirement and enhancements.",
+      "role_category": "Software Development",
+      "salary": 850000,
+      "work_experience": "0",
+      "job_type": "Fresher",
+      "education_level": "Bachelor's Degree",
+      "skills": [
+        "Java",
+        "JavaScript"
+      ],
+      "id": 11
+    },
+    {
+      "user_id": "Fmwa2TH6Q8gVZU9y0Bsp9dbtAsO2",
+      "company_name": "Selfservit solutions pvt ltd",
+      "company_description": " It is classified as Non-govt company and is registered at Registrar of Companies, Chennai. ",
+      "company_location": "Chennai",
+      "number_of_postings": 2,
+      "job_title": "JavaScript Developer",
+      "job_description": "Looking for suitable candidates for the post of Javascript developer in Chennai who can join immediately or 1 to 1.5 months.\nCandidates should have strong programming and logical thinking skills, responsible for developing the client side framework using html and javascript for both web and mobile application.\n",
+      "role_category": "Software Development",
+      "salary": 950000,
+      "work_experience": "1",
+      "job_type": "FullTime",
+      "education_level": "Bachelor's Degree",
+      "skills": [
+        "JavaScript"
+      ],
+      "id": 12
+    },
+    {
+      "user_id": "Fmwa2TH6Q8gVZU9y0Bsp9dbtAsO2",
+      "company_name": "Akqa Media India pvt ltd",
+      "company_description": "AKQA is an ideas and innovation company. We exist to create the future for our clients.\n\n",
+      "company_location": "Gurgaon",
+      "number_of_postings": 3,
+      "job_title": "Front End Web Developer",
+      "job_description": "Understanding of JavaScript design patterns, including the Model-View-Controller and Observer patterns.Able to produce JavaScript unit tests.\n",
+      "role_category": "Software Development",
+      "salary": 500000,
+      "work_experience": "4",
+      "job_type": "FullTime",
+      "education_level": "Bachelor's Degree",
+      "skills": [
+        "JavaScript"
+      ],
+      "id": 13
+    },
+    {
+      "user_id": "fEChE7yb6VUPW8kErs6EpCqfpIp1",
+      "company_name": "Accenture",
+      "company_description": "Accenture solves our clients’ toughest challenges by providing unmatched services in strategy, consulting, digital, technology and operations. \n",
+      "company_location": "Mumbai",
+      "number_of_postings": 6,
+      "job_title": "Application Developer",
+      "job_description": "Design, build and configure applications to meet business process and application requirements.\n",
+      "role_category": "Software Development",
+      "salary": 1200000,
+      "work_experience": "4",
+      "job_type": "FullTime",
+      "education_level": "Bachelor's Degree",
+      "skills": [
+        "JavaScript",
+        "Angular"
+      ],
+      "id": 14
+    },
+    {
+      "user_id": "Fmwa2TH6Q8gVZU9y0Bsp9dbtAsO2",
+      "company_name": "Revolux Solutions Pvt Ltd",
+      "company_description": "REVOLUX SOLUTIONS PRIVATE LIMITED is a Mumbai based company working towards excellence in the Software Solutions space, and believe in pursuing business through innovation and technology.",
+      "company_location": "Mumbai",
+      "number_of_postings": 5,
+      "job_title": "Full stack developer",
+      "job_description": "Design, build and maintain good quality, high performance, reusable, and reliable code. Transform designs and wireframes into high-quality source code",
+      "role_category": "Software Development",
+      "salary": 750000,
+      "work_experience": "1",
+      "job_type": "FullTime",
+      "education_level": "Bachelor's Degree",
+      "skills": [
+        "JavaScript"
+      ],
+      "id": 15
+    },
+    {
+      "user_id": "Fmwa2TH6Q8gVZU9y0Bsp9dbtAsO2",
+      "company_name": "Newt global india private limited",
+      "company_description": "It is inolved in Data processing. [This includes the processing or tabulation of all types of data. Provision of such services on (i) an hourly or time -share basis, and (ii) management or operation of data processing facilities of others on a time sharing basis; on a fee or contract basis].\n",
+      "company_location": "Bangalore",
+      "number_of_postings": 7,
+      "job_title": "Technical Architect",
+      "job_description": "We are Hiring Python developers for our project with Lumen.\n",
+      "role_category": "Software Development",
+      "salary": 750000,
+      "work_experience": "4",
+      "job_type": "FullTime",
+      "education_level": "Bachelor's Degree",
+      "skills": [
+        "Java",
+        "Python"
+      ],
+      "id": 16
+    },
+    {
+      "user_id": "Fmwa2TH6Q8gVZU9y0Bsp9dbtAsO2",
+      "company_name": "Qween Network Llp",
+      "company_description": "Qween Network Llp is a Limited Liability Partnership firm incorporated on 03 February 2017. It is registered at Registrar of Companies, Mumbai.",
+      "company_location": "Hyderabad",
+      "number_of_postings": 6,
+      "job_title": "AWS Data Engineer",
+      "job_description": "Seeking AWS Data Engineers with 4+ years of experience\nMust have knowledge of  Python.",
+      "role_category": "Software Development",
+      "salary": 525000,
+      "work_experience": "4",
+      "job_type": "FullTime",
+      "education_level": "Bachelor's Degree",
+      "skills": [
+        "Python"
+      ],
+      "id": 17
+    },
+    {
+      "user_id": "Fmwa2TH6Q8gVZU9y0Bsp9dbtAsO2",
+      "company_name": "Infrasoft Technologies Ltd",
+      "company_description": "InfrasoftTech is a leading FinTech digital solutions provider for the banking and financial sector.",
+      "company_location": "Pune",
+      "number_of_postings": 2,
+      "job_title": "Java Developer",
+      "job_description": "Mandatory Skills for 2 positions: Java, Springboot, Spring Cloud, Cloud Application development experience Unix. Preferred: Oracle, PL/SQL",
+      "role_category": "Software Development",
+      "salary": 175000,
+      "work_experience": "2",
+      "job_type": "FullTime",
+      "education_level": "Bachelor's Degree",
+      "skills": [
+        "Java"
+      ],
+      "id": 18
+    },
+    {
+      "user_id": "Fmwa2TH6Q8gVZU9y0Bsp9dbtAsO2",
+      "company_name": "Snaphunt",
+      "company_description": "Snaphunt is a smart hiring platform and cloud-based recruiting software that helps employers find the right talent for their organisations quickly, accurately and cost-effectively.",
+      "company_location": "Hyderabad",
+      "number_of_postings": 1,
+      "job_title": "Software Developer",
+      "job_description": "Writing well-designed, testable and efficient code.Gathering and evaluating user feedback.\n",
+      "role_category": "Software Development",
+      "salary": 3000000,
+      "work_experience": "1",
+      "job_type": "FullTime",
+      "education_level": "Bachelor's Degree",
+      "skills": [
+        "Java",
+        "Angular"
+      ],
+      "id": 19
+    },
+    {
+      "user_id": "Fmwa2TH6Q8gVZU9y0Bsp9dbtAsO2",
+      "company_name": "GroundTruth",
+      "company_description": "GroundTruth is the leading location-based marketing and advertising technology company. ",
+      "company_location": "Kolkata",
+      "number_of_postings": 4,
+      "job_title": "Senior Software Engineer",
+      "job_description": "Analyze requirements to design, document, estimate, and build features for new and existing systems",
+      "role_category": "Software Development",
+      "salary": 550000,
+      "work_experience": "4",
+      "job_type": "FullTime",
+      "education_level": "Bachelor's Degree",
+      "skills": [
+        "Java",
+        "Python"
+      ],
+      "id": 20
+    },
+    {
+      "user_id": "Fmwa2TH6Q8gVZU9y0Bsp9dbtAsO2",
+      "company_name": "Oracle",
+      "company_description": "Oracle is a company providing integrated cloud applications and platform services. Its products and services include applications and infrastructure offerings that are delivered through a variety of IT deployment models including on-premise deployments",
+      "company_location": "Bangalore",
+      "number_of_postings": 7,
+      "job_title": "Full stack developer",
+      "job_description": "The CX Industries team provides you the opportunity to build large-scale distributed infrastructure for the cloud to support a suite of massive scale, integrated cloud services in a broadly distributed, multi-tenant cloud environment",
+      "role_category": "Software Development",
+      "salary": 3000000,
+      "work_experience": "5",
+      "job_type": "FullTime",
+      "education_level": "Master's Degree",
+      "skills": [
+        "Python"
+      ],
+      "id": 21
+    },
+    {
+      "user_id": "Fmwa2TH6Q8gVZU9y0Bsp9dbtAsO2",
+      "company_name": "IBM",
+      "company_description": "IBM believe in progress—that the application of intelligence, reason and science can improve business, society and the human condition\n\n",
+      "company_location": "Pune",
+      "number_of_postings": 5,
+      "job_title": "Full stack developer",
+      "job_description": "You will be responsible for developing and maintaining software solutions using SDLC standards and best practices.\nHelp maintain a growth mind set with peers",
+      "role_category": "Software Development",
+      "salary": 4250000,
+      "work_experience": "0",
+      "job_type": "Fresher",
+      "education_level": "Bachelor's Degree",
+      "skills": [
+        "Java",
+        "Python",
+        "JavaScript"
+      ],
+      "id": 22
+    },
+    {
+      "user_id": "Fmwa2TH6Q8gVZU9y0Bsp9dbtAsO2",
+      "company_name": "Microsoft",
+      "company_description": "Microsoft s Azure SQL Security team is a fundamental building block for securing data at rest and in transit.",
+      "company_location": "Bangalore",
+      "number_of_postings": 3,
+      "job_title": "UX/UI Developer",
+      "job_description": "We are looking for technically strong full stack developer to own the feature end-to-end, from backend, middle tier, frontend including User Experience (UX) related changes .\n\n",
+      "role_category": "Software Development",
+      "salary": 4200000,
+      "work_experience": "3",
+      "job_type": "FullTime",
+      "education_level": "Bachelor's Degree",
+      "skills": [
+        "JavaScript",
+        "Angular",
+        "ReactJS"
+      ],
+      "id": 23
+    },
+    {
+      "user_id": "Fmwa2TH6Q8gVZU9y0Bsp9dbtAsO2",
+      "company_name": "Swiggy",
+      "company_description": "At Swiggy, we build products & solutions that redefine the food ordering & delivery space in India, every single day. The best part?Every bit of your work at Swiggy will help us change the way India eats!\n",
+      "company_location": "Bangalore",
+      "number_of_postings": 4,
+      "job_title": "Technical lead",
+      "job_description": "In this role you are also responsible to find innovative ways to optimise the test strategy for maximising ROI from areas which are undertaken for automation.",
+      "role_category": "Software Development",
+      "salary": 225000,
+      "work_experience": "1",
+      "job_type": "FullTime",
+      "education_level": "Bachelor's Degree",
+      "skills": [
+        "Python"
+      ],
+      "id": 24
+    },
+    {
+      "user_id": "Fmwa2TH6Q8gVZU9y0Bsp9dbtAsO2",
+      "company_name": "Uber",
+      "company_description": "The Uber app gives you the power to get where you want to go with access to different types of rides across more than 10,000 cities.",
+      "company_location": "Hyderabad",
+      "number_of_postings": 4,
+      "job_title": "Technical Trainer",
+      "job_description": "As an Uber Intern, you will have a direct impact on the customer experience for both riders and drivers. Do you like our service and want to bring them to the next level. Do you have a beef with our app and want to fix it.",
+      "role_category": "Corporate Training",
+      "salary": 50000,
+      "work_experience": "0",
+      "job_type": "Internship",
+      "education_level": "Bachelor's Degree",
+      "skills": [
+        "Java",
+        "Python"
+      ],
+      "id": 25
+    },
+    {
+      "user_id": "Fmwa2TH6Q8gVZU9y0Bsp9dbtAsO2",
+      "company_name": "Dell",
+      "company_description": "We are a diverse team with unique perspectives. United in our purpose, our strategy and our culture. Driven by our ambition and the power of technology to drive human progress",
+      "company_location": "Bangalore",
+      "number_of_postings": 5,
+      "job_title": "Database Developer",
+      "job_description": "Contribute to the design and architecture of high-quality, independent and AI/ML based container services on complex management system and software/storage environments, that can provide data projections, and storage level insights/recommendations.",
+      "role_category": "DBA / Data warehousing",
+      "salary": 275000,
+      "work_experience": "3",
+      "job_type": "FullTime",
+      "education_level": "Bachelor's Degree",
+      "skills": [
+        "Java",
+        "Python"
+      ],
+      "id": 26
+    },
+    {
+      "user_id": "Fmwa2TH6Q8gVZU9y0Bsp9dbtAsO2",
+      "company_name": "Blue Ripples Technologies Private Limited",
+      "company_description": "Blue Ripples Technologies Private Limited is a Private incorporated on 04 May 2012. It is classified as Non-govt company and is registered at Registrar of Companies, Ernakulam.",
+      "company_location": "Trivandrum",
+      "number_of_postings": 4,
+      "job_title": "Software Developer",
+      "job_description": "We are looking for a talented programmer to create secure and functional code. You may have to provide quality coding solutions both for simple applications and complex information or operating systems.",
+      "role_category": "Software Development",
+      "salary": 150000,
+      "work_experience": "0",
+      "job_type": "Fresher",
+      "education_level": "Bachelor's Degree",
+      "skills": [
+        "Java",
+        "Python"
+      ],
+      "id": 27
+    }
+  ]
+}
